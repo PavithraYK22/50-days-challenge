@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+    content="width=device-width,initial-scale=1.0">
+        <meta name="description"
+    content="Community platform for empowering the next generation of engineers.">
+    <title>Blah Blah Community</title>
+    </head>
+    <body>
+        <header role="banner">
+            <nav role="navigation">
+                <h2>Community Logo</h2>
+
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="#initiatives">Initiatives</a></li>
+                    <li><a href="#core-team">Core Team</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main role="main">
+            <section id="hero aria-labelledby="hero-heading">
+                <h1>Building Future Engineers</h1>
+                <p>Learn,Grow,Innovate,Develop</p>
+                <a href="#about">Join, let's build together</a>
+            </section>
+            <section id="about" aria-labelledby="about-heading">
+                <h2>About Us</h2>
+                <p>Our community is here to help the future engineers to develop technical skills, get ideas on real world project and to guide for successful career</p>
+            </section>
+            <section id="initiatives" aria-labelledby="Initiatives-heading">
+                <h2>Our Initiatives</h2>
+                <article>
+                    <h3>Tech skills Workshop</h3>
+                    <p>A workshop where we learn about all kind of techincal skills and real world projects</p>
+                </article>
+
+            </section>
+            <section id="core-team" aria-labelledby="Core-team heading">
+                <h2>Team</h2>
+                <ul>
+                    <li>
+                        <h3>Pavithra YK</h3>
+                        <p>full stack developer</p>
+                    </li>
+                    <li>
+                        <h3>Mentor</h3>
+                        <p>core instructors</p>
+                    </li>
+                </ul>
+            </section>
+            
+        </main>
+
+        <footer role="contentinfo">
+            <p>&copy; 2026 Blah Blah Community.All Rights Reserved.</p>
+            <p>
+                <a href="https://linkedin.com" target="blank" rel="noopener">LinkedIn</a></li>
+                <a href="https://whatsapp.com" target="blank" rel="noopener">WhatsApp</a></li>
+            </p>
+        </footer>
+    </body>
+</html>
+ 
