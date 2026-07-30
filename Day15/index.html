@@ -118,27 +118,38 @@
 
             <hr class="section-divider">
 
-           <section id="initiatives" class="info-card-section" aria-labelledby="initiatives-heading">
+            <section id="initiatives" class="info-card-section" aria-labelledby="initiatives-heading">
 
     <!-- Section Header -->
-    <div class="section-header">
-        <span class="section-tag">🚀 Ongoing Work</span>
+    <header class="initiatives-header">
         <h2 id="initiatives-heading" class="section-title">
             Active Initiatives
         </h2>
-        <p class="section-subtitle">
-            Explore the projects currently being designed, developed, and improved.
-        </p>
-    </div>
 
-    <!-- Dynamic Project Cards -->
-    <div
-        id="dynamic-grid"
-        class="initiatives-grid"
-        role="list"
-        aria-live="polite"
-        aria-label="Active initiatives">
-    </div>
+        <form class="search-container" role="search" onsubmit="return false;">
+            <div class="search-box">
+                <input
+                    id="search-projects"
+                    class="search-input"
+                    type="search"
+                    placeholder="Search initiatives..."
+                    aria-label="Search initiatives"
+                    autocomplete="off"
+                >
+
+                <button
+                    id="clear-search"
+                    class="clear-search-btn"
+                    type="reset"
+                    aria-label="Clear search">
+                    ✕
+                </button>
+            </div>
+        </form>
+    </header>
+
+    <!-- Projects Grid -->
+    <main id="dynamic-grid" class="initiatives-grid" aria-live="polite"></main>
 
 </section>
 
